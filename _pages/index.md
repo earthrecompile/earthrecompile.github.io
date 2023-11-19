@@ -12,7 +12,7 @@ Ciao! I am Alberto an hardware designer & music producer based in stockholm, swe
 I am currently Senior Electronics Engineer at [teenage engineering](https://teenage.engineering/).
 
 Checkout my [[projects]]
-
+<nav>prova</nav>
 
 <strong>Recently updated notes</strong>
 
