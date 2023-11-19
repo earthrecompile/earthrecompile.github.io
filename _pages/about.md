@@ -3,7 +3,9 @@ layout: page
 title: About
 permalink: /about
 ---
+this is me:
+<img src="{{ site.baseurl }}/assets/img/me_el_chalten.jpeg" /><br>
+this is where I come from:
+<img src="{{ site.baseurl }}/assets/img/gallinara.jpeg" /><br>
 
-*This is an about page.*
-
-Feel free to tell the world about what you love! 😍
+<strong>education</strong>

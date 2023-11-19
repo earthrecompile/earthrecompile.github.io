@@ -3,10 +3,15 @@ layout: page
 title: Home
 id: home
 permalink: /
+description: ciao
 ---
-Hi! I am Alberto, currently Senior Electronics Engineer at [teenage engineering](https://teenage.engineering/)
+Ciao! I am Alberto an hardware designer & music producer based in stockholm, sweden.
 
-<img src="{{ site.baseurl }/assets/img/me_el_chalten.jpeg"/>
+
+
+I am currently Senior Electronics Engineer at [teenage engineering](https://teenage.engineering/).
+
+Checkout my [[projects]]
 
 
 <strong>Recently updated notes</strong>
