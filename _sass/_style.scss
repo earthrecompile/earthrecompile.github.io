@@ -10,7 +10,7 @@ $font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
 
 :root {
   line-height: 1.7;
-  font-size: calc(1.2em + 0.5vw);
+  font-size: calc(0.9em + 0.5vw);
   letter-spacing: -0.015em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,7 +28,7 @@ body {
   padding: 4vh 6vw;
   overflow-x: hidden;
   //font-size: 1rem;
-  max-width: 1750px;
+  max-width: 1000px;
 }
 
 time {
@@ -78,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.3;
+  line-height: 1;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -90,8 +90,9 @@ a {
   border-bottom: 1px solid $color-border;
   color: $color-primary;
   &:hover {
-    color: black !important;
-    background: #fffaf1;
+    //color: black !important;
+    color: #84754a
+    //background: #B9ADA4;
   }
   &:after {
     position: relative;
@@ -105,11 +106,6 @@ a {
   &.reversefootnote:after {
     content: "";
   }
-}
-
-*:focus {
-  background: #ffe8bc !important;
-  color: black !important;
 }
 
 nav {
