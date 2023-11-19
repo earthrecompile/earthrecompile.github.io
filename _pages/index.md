@@ -25,8 +25,3 @@ Checkout my [[projects]]
   {% endfor %}
 </ul>
 
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
