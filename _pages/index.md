@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: 
 id: home
 permalink: /
 description: ciao
