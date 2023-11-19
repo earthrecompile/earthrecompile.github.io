@@ -86,6 +86,30 @@ h6 {
 a {
   transition: background 300ms;
   padding: 0 0.1em;
+  text-decoration: underline;
+  border-bottom: 1px solid $color-border;
+  color: $color-primary;
+  &:hover {
+    //color: black !important;
+    color: #84754a
+    //background: #B9ADA4;
+  }
+  &:after {
+    position: relative;
+    top: -0.5em;
+    font-size: 0.7em;
+    content: "↗";
+    color: #aaaaaa;
+  }
+  &.internal-link:after,
+  &.footnote:after,
+  &.reversefootnote:after {
+    content: "";
+  }
+}
+a_title {
+  transition: background 300ms;
+  padding: 0 0.1em;
   text-decoration: none;
   border-bottom: 1px solid $color-border;
   color: $color-primary;
@@ -107,7 +131,6 @@ a {
     content: "";
   }
 }
-
 nav {
   margin: 1em 0 3em;
 }
