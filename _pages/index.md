@@ -7,7 +7,7 @@ description: ciao
 ---
 Ciao! I am Alberto an hardware designer & music producer based in stockholm, sweden.
 
-
+<img src="{{ site.baseurl }}/assets/img/me_el_chalten.jpeg" /><br>
 
 I am currently Senior Electronics Engineer at [teenage engineering](https://teenage.engineering/).
 
