@@ -90,7 +90,7 @@ If you'd like to quote other people, consider using quote blocks:
 
 And of course, images look great:
 
-<img src="{{ site.baseurl }}/assets/image.jpg"/>
+<img src="{{ site.baseurl }}/assets/horse_desert_1.jpg"/>
 
 You can also ==highlight some content== by wrapping it with `==`.
 
