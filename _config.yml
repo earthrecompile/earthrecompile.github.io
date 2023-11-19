@@ -18,6 +18,9 @@ open_external_links_in_new_tab: true
 # as their browser will communicate with Twitter's servers.
 embed_tweets: false
 
+# 'True' displays notes graph at bottom of each note
+show_note_graph: false
+
 permalink:           pretty
 relative_permalinks: false
 
