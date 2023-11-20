@@ -5,23 +5,26 @@ id: home
 permalink: /
 description: ciao
 ---
-Ciao! I am Alberto an hardware designer & music producer based in stockholm, sweden.
+ciao! 
+I am alberto,  hardware designer & music producer based in stockholm, sweden.  
+Currently, I am a senior electronics engineer at [teenage engineering](https://teenage.engineering/).
 
-<img src="{{ site.baseurl }}/assets/img/me_el_chalten.jpeg" /><br>
+from here you can:  
 
-I am currently Senior Electronics Engineer at [teenage engineering](https://teenage.engineering/).
+- explore the [[projects]] I worked on
+- listen to my unreleased [[music]]
+- [[inspiration| get inspired]]
+- learn more [[about| about me]].  
 
-Checkout my [[projects]]
-<nav>prova</nav>
 
 <strong>Recently updated notes</strong>
-
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes limit: 5 %}
+  {% for note in recent_notes limit: 3 %}
     <li>
       {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
     </li>
   {% endfor %}
 </ul>
+
 

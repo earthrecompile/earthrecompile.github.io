@@ -1,8 +1,8 @@
-$color-primary: #090000;
-$color-text: #3A3124;
+$color-primary: #372e2d;
+$color-text: #372e2dc5;
 $color-subtext: hsl(0, 0%, 30%);
 $color-border: hsl(0, 0%, 85%);
-$color-background: rgb(218,220,208);
+$color-background: #dadcd0;
 $color-box-background: mix($color-primary, rgba(255, 180, 255, 0.725), 4%);
 $border-radius: 4px;
 $font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
@@ -80,43 +80,20 @@ h5,
 h6 {
   line-height: 0.7;
   margin-bottom: 0;
+  font-size: calc(1.5em + 0.5vw);
   padding-bottom: 0;
+  color:#315b7b;
 }
 
 a {
-  transition: background 300ms;
-  padding: 0 0.1em;
-  text-decoration: underline;
-  border-bottom: 1px solid $color-border;
-  color: $color-primary;
-  &:hover {
-    //color: black !important;
-    color: #84754a
-    //background: #B9ADA4;
-  }
-  &:after {
-    position: relative;
-    top: -0.5em;
-    font-size: 0.7em;
-    content: "↗";
-    color: #aaaaaa;
-  }
-  &.internal-link:after,
-  &.footnote:after,
-  &.reversefootnote:after {
-    content: "";
-  }
-}
-a_title {
   transition: background 300ms;
   padding: 0 0.1em;
   text-decoration: none;
   border-bottom: 1px solid $color-border;
   color: $color-primary;
   &:hover {
-    //color: black !important;
-    color: #84754a
-    //background: #B9ADA4;
+    color: #315b7b
+    //background: #b7b183;
   }
   &:after {
     position: relative;
@@ -131,6 +108,7 @@ a_title {
     content: "";
   }
 }
+
 nav {
   margin: 1em 0 3em;
 }
