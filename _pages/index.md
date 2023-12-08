@@ -5,7 +5,7 @@ id: home
 permalink: /
 description: ciao
 ---
-<img   style="width: 100%; height: 200px; object-fit:cover; object-position: 0 73%;" src="{{ site.baseurl }}/assets/img/pata1.jpg"/>
+<img   style="width: 100%; height: 200px; object-fit:cover; object-position: 0 73%;" src="{{ site.baseurl }}/assets/img/pata1.JPG"/>
 ciao, I am an hardware designer & music producer based in stockholm, sweden.  
 currently, I work as a senior electronics engineer at [teenage engineering](https://teenage.engineering/). 
 
