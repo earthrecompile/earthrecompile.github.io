@@ -5,19 +5,25 @@ id: home
 permalink: /
 description: ciao
 ---
-ciao! 
-I am alberto,  hardware designer & music producer based in stockholm, sweden.  
-Currently, I am a senior electronics engineer at [teenage engineering](https://teenage.engineering/).
+<img   style="width: 100%; height: 200px; object-fit:cover; object-position: 0 73%;" src="{{ site.baseurl }}/assets/img/pata1.jpg"/>
+ciao, I am an hardware designer & music producer based in stockholm, sweden.  
+currently, I work as a senior electronics engineer at [teenage engineering](https://teenage.engineering/). 
 
-from here you can:  
+harmony, efficiency, beauty, identity, love are the pillars of my design and life ethics.  
 
-- explore the [[projects]] I worked on
+
+ from here you can:
+- explore my [[projects|work]] 
 - listen to my unreleased [[music]]
 - [[inspiration| get inspired]]
 - learn more [[about| about me]].  
 
 
-<strong>Recently updated notes</strong>
+get in touch.
+
+
+<!--
+<strong>recently updated notes:</strong>
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
   {% for note in recent_notes limit: 3 %}
@@ -26,5 +32,6 @@ from here you can:
     </li>
   {% endfor %}
 </ul>
+-->
 
 
