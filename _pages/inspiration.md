@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inspiration
+title: 
 permalink: /Inspiration
 ---
 <img src="{{ site.baseurl }}/assets/img/horse_desert_1.jpg"/>
