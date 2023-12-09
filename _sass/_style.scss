@@ -23,11 +23,11 @@ body {
   vertical-align: middle;
   color: $color-text;
   font-family: $font-family;
-  margin: 0 auto;
+  //margin: 0 auto;
   line-height: 1.7; 
   padding: 4vh 6vw;
   overflow-x: hidden;
-  //font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 1200px;
 }
 
@@ -73,14 +73,20 @@ hr {
   background: $color-border;
 }
 
-h1,
+h1 {
+  line-height: 0.7;
+  margin-bottom: 0;
+  font-size: calc(1.2em + 0.5vw);
+  padding-bottom: 0;
+  color:#315b7b;
+}
 h3,
 h4,
 h5,
 h6 {
   line-height: 0.7;
   margin-bottom: 0;
-  font-size: calc(1.5em + 0.5vw);
+  font-size: calc(1em + 0.5vw);
   padding-bottom: 0;
   color:#315b7b;
 }
