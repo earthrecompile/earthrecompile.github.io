@@ -5,21 +5,17 @@ id: home
 permalink: /
 description: ciao
 ---
-<img   style="width: 100%; height: 200px; object-fit:cover; object-position: 0 73%;" src="{{ site.baseurl }}/assets/img/pata1.JPG"/>
-ciao, I am an hardware designer & music producer based in stockholm, sweden.  
-currently, I work as a senior electronics engineer at [teenage engineering](https://teenage.engineering/). 
+<img   style="width: 100%; height: 200px; max-height: 12vh; object-fit:cover; object-position: 0 73%;" src="{{ site.baseurl }}/assets/img/pata1.JPG"/>
+  
+I am an hardware designer and music producer based in stockholm, sweden.  
 
-harmony, efficiency, beauty, identity, love are the pillars of my design and life ethics.  
+Harmony, efficiency, beauty, identity, love are the pillars of my design and life ethics.  
 
 
  from here you can:
 - explore my [[projects|work]] 
 - listen to my unreleased [[music]]
-- [[inspiration| get inspired]]
-- learn more [[about| about me]].  
-
-
-get in touch.
+- [[inspiration| get inspired]] 
 
 
 <!--

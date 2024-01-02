@@ -1,3 +1,18 @@
-<div>
-    <a class="internal-link" href="{{ site.baseurl}}/" style="text-transform: lowercase; font-size: calc(2em);   letter-spacing: -0em;  margin-top: 0;">{{ site.title }}</a>
+navigation:
+
+<!-- Navigation bar container -->
+<div style="padding: 1.618rem 0;">
+
+  <!-- Your navigation bar -->
+  <a class="internal-link" href="{{ site.baseurl }}/" id="mainPageLink" style="letter-spacing: 0; font-size: 1.0618rem; line-height: 1; padding-top: 0; display: block;">
+    {{ site.title }}
+  </a>
+
+  <!-- Display the rest of the navigation dynamically based on the current page -->
+  {% if page.path and page.url != '/' %}
+    <a class="internal-link" href="{{ site.baseurl }}{{ page.url }}" id="navigationTitle" style="display: block;">
+      /{{ page.path | remove_first: '/' | remove_last: '/' }}
+    </a>
+  {% endif %}
+
 </div>

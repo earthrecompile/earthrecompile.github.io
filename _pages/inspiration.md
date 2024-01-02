@@ -2,6 +2,7 @@
 layout: page
 title: 
 permalink: /Inspiration
+path: / inspiration
 ---
 <img src="{{ site.baseurl }}/assets/img/horse_desert_1.jpg"/>
 <img  src="{{ site.baseurl }}/assets/img/pata1.JPG"/>
